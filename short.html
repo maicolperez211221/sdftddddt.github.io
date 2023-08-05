@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>YouTube URL Link shortener</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://y2u.be/img/style.css" rel="stylesheet" type="text/css">
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-57444-41"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-57444-41');
+</script>
+</head>
+<body class="body">
+<header class="header">
+<div class="ttl">
+<h1 class="logo">YouTube URL shortener Shorten that YouTube.com URL into a short URL.</h1>
+</div>
+</header>
+<div class="apps">
+<div class="formbox">
+<form action="https://y2u.be/create.php" method="get" onsubmit="return checkform(this);" class="form">
+<p class="mess">Paste a link to shoten it</p>
+<ul class="ul">
+<li class="li-url"><input type="text" class="url" id="URL" maxlength="2000" name="URL" value="http://www.youtube.com/watch?v=j4dMnAPZu70" onfocus="if(this.value=='http://www.youtube.com/watch?v=j4dMnAPZu70')this.value='';" onblur="if(this.value=='')this.value='http://www.youtube.com/watch?v=j4dMnAPZu70';"></li>
+<li class="li-submit">
+<button class="submit">SHORTEN URL</button></li>
+</ul>
+</form>
+
+</div>
+
+</div>
+<section class="info">
+<h3>About y2u.be</h3>
+<p>y2u.be is a free YouTube short URL service.
+You can use the shorten URL for Twitter, e-mail and blog.</p>
+<h3>Why y2u.be?</h3>
+<p>y2u.be is only for YouTube movie URL , cannot shorten other URLs.
+The link by y2u.be redirect to YouTube, so you can clarify that shortening URL link is not any advertising or illegal link.</p>
+<div class="img">
+<picture>
+<source srcset="https://y2u.be/img/why_y2ube_v2@2x.png" media="(min-width: 768px)">
+<img src="https://y2u.be/img/why_y2ube_v2.png" alt="" />
+</picture>
+</div>
+<h3>y2u.be API</h3>
+<p>y2u.be shortening system is simple. It can be incorporated into your application and web service free (including commercial use).</p>
+<div class="api">
+<p>http://www.youtube.com/watch?v=<span class="span">j4dMnAPZu70</span></p>
+<span class="allow"><img src="img/arrow.svg" class="img"></span>
+<p>http://y2u.be/<span class="span">j4dMnAPZu70</span></p>
+</div>
+<p class="term"> y2u.be is a third party service. It is not related to YouTube &amp; Google inc.</p>
+</section>
+<footer class="footer">
+<p>&copy; <a href="https://firewren.ch/" class="link">Firewrench inc.</a></p>
+</footer>
+</body>
+</html>
